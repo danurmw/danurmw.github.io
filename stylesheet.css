@@ -1,3 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+
 .calculator {
   text-align: center;
   margin: 0 auto;
@@ -28,11 +40,12 @@
 button {
     height: 80px;
     background-color: gray;
-    border: 1px solid black;
+    border: 1px solid darkgray;
     font-size: 32px;
     color: #fff;
     width: 25%;
     outline: none;
+    cursor: pointer;
 }
 
 .all-clear, .zero-btn {
@@ -40,7 +53,7 @@ button {
 }
 
 .operator, .equal-sign {
-    background-color: gold;
+    background-color: gray;
 }
 
 button:hover {
@@ -48,5 +61,5 @@ button:hover {
 }
 
 .operator:hover, .equal-sign:hover {
-    background-color: darkgoldenrod;
+    background-color: darkgray;
 }
