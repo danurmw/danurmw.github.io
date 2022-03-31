@@ -63,3 +63,9 @@ button:hover {
 .operator:hover, .equal-sign:hover {
     background-color: darkgray;
 }
+
+@media (max-width: 670px) {
+    .calculator {
+        width: 300px;
+    }
+}
